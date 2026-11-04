@@ -1,0 +1,30 @@
+ARGOS — Otonom Robotaksi Simülasyonu · Web sürümü (0.2.0)
+==========================================================
+
+YAYINLAMA
+  Bu klasörün içeriği (index.html, Build, TemplateData) herhangi bir statik web sunucusuna olduğu gibi
+  yüklenir; sunucuda ek ayar gerekmez. Örnekler:
+    - itch.io: Yeni proje → "HTML" türü → bu klasörün ZIP'ini yükle → "This file will be played in the browser".
+      Görüntü boyutu için "Mobile friendly" ve "Fullscreen button" seçeneklerini işaretleyin.
+    - Netlify: app.netlify.com/drop sayfasına bu klasörü sürükleyip bırakın.
+    - GitHub Pages: dosyaları bir depoya yükleyip Settings → Pages'ten yayınlayın.
+  Sayfa HTTPS üzerinden açılmalıdır (bu servislerin hepsi HTTPS verir).
+  Not: index.html dosyasını bilgisayarda çift tıklayarak açmak çalışmaz; bir sunucu gerekir.
+
+TELEFONDA
+  - Telefonu yatay tutun. Duraklar haritaya dokunarak seçilir; butonlar ekrandadır.
+  - iPhone: Safari tam ekranı desteklemez. Tam ekran için Paylaş → Ana Ekrana Ekle; oyun ana ekrandaki
+    ARGOS ikonundan adres çubuğu olmadan açılır.
+  - Android: sağ üstteki TAM EKRAN butonu.
+  - İlk açılışta yaklaşık 27 MB indirilir; sonraki açılışlar önbellekten gelir.
+
+BİLGİSAYARDA (tarayıcı)
+  Kontroller masaüstü sürümle aynıdır (sol tık durak ekler, Space başlatır, 1–4 kamera, K renk...).
+
+EMEĞİ GEÇENLER VE LİSANSLAR
+  Araç modeli: "Car Concept" — Eric Chadwick, Darmstadt Graphics Group GmbH, 2024
+    Khronos glTF Sample Assets, CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+    (Modeldeki Khronos logoları/ticari markaları bu lisansın kapsamı dışındadır.)
+  Yazı tipleri: Rajdhani (Indian Type Foundry), Audiowide (Astigmatic) — SIL Open Font License 1.1
+  Parkur: TEKNOFEST 2026 Robotaksi şartnamesi (Şekil 1) esas alınarak sadeleştirilmiştir.
+  Unity 6 ile geliştirilmiştir.

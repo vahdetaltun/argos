@@ -1,0 +1,11 @@
+{
+  "name": "ARGOS Otonom Robotaksi",
+  "short_name": "ARGOS",
+  "start_url": "../index.html",
+  "scope": "../",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [{ "src": "icon.png", "sizes": "256x256", "type": "image/png" }]
+}
