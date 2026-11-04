@@ -37,10 +37,11 @@
     #rotate .phone { width: 46px; height: 78px; border: 3px solid #e2353d; border-radius: 9px; animation: turn 2s ease-in-out infinite; margin-bottom: 22px; }
     @keyframes turn { 0%, 30% { transform: rotate(0); } 60%, 100% { transform: rotate(-90deg); } }
     @media (orientation: portrait) and (pointer: coarse) { #rotate { display: flex; } }
-    #hint { position: fixed; z-index: 6; left: 50%; transform: translateX(-50%); top: max(10px, env(safe-area-inset-top));
-            display: none; align-items: center; gap: 10px; padding: 9px 12px 9px 16px; border-radius: 12px;
-            background: rgba(9, 18, 30, .94); border: 1px solid rgba(255, 255, 255, .15); color: #dfe7f1;
-            font: 500 13px system-ui, -apple-system, sans-serif; white-space: nowrap; }
+    /* sol üstte, panelin logo alanının üstünde: haritayı ve butonları kapatmaz */
+    #hint { position: fixed; z-index: 6; left: calc(max(10px, env(safe-area-inset-left)) + 6px); top: calc(max(10px, env(safe-area-inset-top)) + 4px);
+            display: none; align-items: center; gap: 8px; padding: 8px 8px 8px 12px; border-radius: 10px;
+            background: rgba(9, 18, 30, .96); border: 1px solid rgba(255, 255, 255, .15); color: #dfe7f1;
+            font: 500 12px system-ui, -apple-system, sans-serif; white-space: nowrap; }
     #hint button { border: 0; background: transparent; color: #8a94a3; font-size: 18px; padding: 0 4px; }
     #err { position: fixed; inset: 0; z-index: 9; display: none; align-items: center; justify-content: center; padding: 24px;
            background: #000; color: #ffb4b0; font: 500 15px system-ui, -apple-system, sans-serif; text-align: center; }
